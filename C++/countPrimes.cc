@@ -11,7 +11,7 @@ public:
 		for(int i = 3; i * i < n; i = i + 2) {
 			if(!Del[i]) {
 				for(int j = 3; i * j < n; j = j + 2) {//only excute odd numbers
-                    Del[i * j]=true;
+					Del[i * j]=true;
 				}
 			}
 		}
